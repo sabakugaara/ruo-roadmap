@@ -27,7 +27,9 @@ Bytes/Sec    187 kB 93.4 kB 238 kB
 4k requests in 5s, 944 kB read
 ```
 
-- [ ] add example hello word
+- [x] add example hello word
+
+  https://github.com/ruojs/hello
 
 ## other frameworks
 
