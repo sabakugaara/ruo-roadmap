@@ -13,7 +13,20 @@ Roadmap for ruo
 
 ## version 1
 
-- [ ] add benchmark
+- [x] add benchmark
+```
+❯ autocannon -c 100 -d 5 -p 10 "http://localhost:8080/hello?name=abc"
+Running 5s test @ http://localhost:8080/hello?name=abc
+100 connections with 10 pipelining factor
+
+Stat         Avg    Stdev   Max
+Latency (ms) 110.7  332.8   1583
+Req/Sec      800    400     1000
+Bytes/Sec    187 kB 93.4 kB 238 kB
+
+4k requests in 5s, 944 kB read
+```
+
 - [ ] add example hello word
 
 ## other frameworks
